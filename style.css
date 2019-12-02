@@ -2,7 +2,6 @@ body {
   font-family: helvetica, arial, sans-serif;
 }
 
-/* Nav var */
 nav {
   display: block;
   overflow: hidden;
@@ -64,8 +63,6 @@ nav img {
   text-transform: uppercase;
 }
 
-/* font */
-
 #caption {
   font-size: 0.85em;
 }
@@ -109,7 +106,7 @@ section {
   font-weight: bold;
 }
 
-footer div {
+#article_footer div {
   margin: 0 auto;
   margin-left: 300px;
   max-width: 600px;
@@ -166,10 +163,6 @@ footer div {
   position: absolute;
   font-size: 12px;
   max-width: 180px;
-
-  /* word-break: break-all; */
-
-  /* line-break: loose; */
 }
 
 #inflation_demo .img_title {
@@ -232,4 +225,73 @@ footer div {
 #footer_but {
   width: 328px;
   margin-top: 2%;
+}
+
+.seperator_long {
+  width: 852px;
+  height: 1px;
+  background: black;
+}
+.seperator_short {
+  width: 318px;
+  height: 1px;
+  background: black;
+}
+.seperator_short_gray {
+  width: 318px;
+  height: 1px;
+  background: lightgray;
+}
+
+.spacing {
+  margin-top: 2em;
+}
+
+#related_articles {
+  margin-top: 4em;
+}
+
+.clear_left {
+  clear: left;
+}
+.clear_right {
+  clear: right;
+}
+.clear_float {
+  clear: both;
+}
+
+.article_box {
+  float: left;
+  max-width: 272px;
+  margin-right: 1em;
+}
+
+.article_box img {
+  max-width: 272px;
+}
+
+.article_box .author {
+  float: right;
+  font-size: 10px;
+  color: lightgray;
+}
+
+.article_box .title {
+  margin-bottom: 0px;
+}
+
+.article_box .publish_date {
+  font-size: 12px;
+  color: lightgray;
+}
+
+aside {
+  max-width: 318px;
+  float: right;
+}
+.article_list p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
