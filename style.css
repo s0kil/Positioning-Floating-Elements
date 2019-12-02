@@ -78,8 +78,12 @@ section {
   font-style: italic;
 }
 
-#text p,
-#text h2,
+.text p {
+  font-size: 20px;
+}
+
+.text p,
+.text h2,
 #main_img h2 {
   max-width: 600px;
   margin-left: 300px;
@@ -132,3 +136,66 @@ section {
 .main_text {
   clear: left;
 }
+
+#inflation_demo {
+  position: relative;
+}
+
+#inflation_demo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 945px;
+
+  position: relative;
+}
+
+#inflation_demo p {
+  position: absolute;
+  font-size: 12px;
+  max-width: 180px;
+  /* word-break: break-all; */
+  /* line-break: loose; */
+}
+
+#inflation_demo .img_title {
+  font-weight: bold;
+}
+
+:root {
+  --inflation-demo-top: 140px;
+  --inflation-demo-left: 130px;
+}
+
+/* Text Top Start */
+#t1,
+#t2,
+#t3,
+#t4 {
+  top: calc(var(--inflation-demo-top));
+}
+#t5,
+#t6,
+#t7,
+#t8 {
+  top: calc(var(--inflation-demo-top) * 3);
+}
+/* Text Top End */
+
+/* Text Left Start */
+#t1,
+#t5 {
+  left: calc(var(--inflation-demo-left));
+}
+#t2,
+#t6 {
+  left: calc(var(--inflation-demo-left) * 3);
+}
+#t3,
+#t7 {
+  left: calc(var(--inflation-demo-left) * 4.7);
+}
+#t4,
+#t8 {
+  left: calc(var(--inflation-demo-left) * 6.6);
+}
+/* Text Left End */
