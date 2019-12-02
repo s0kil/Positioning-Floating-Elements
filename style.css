@@ -1,0 +1,62 @@
+/* Nav var*/
+nav {
+  display: block;
+  overflow: hidden;
+  border-bottom: solid 1px gray;
+}
+
+#nyt_logo {
+  display: inline-block;
+  width: 200px;
+  margin-left: 26%;
+}
+
+#left_but p {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#left_but * {
+  float: left;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+}
+
+button svg {
+  width: 16px;
+  height: 16px;
+}
+
+nav img {
+  width: 200px;
+  height: auto;
+}
+
+#right_but {
+  float: right;
+}
+
+#right_but button {
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: white;
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* font */
+
+body {
+  font-family: helvetica, arial, sans-serif;;
+}
