@@ -437,7 +437,6 @@ aside {
 
 #editors_picks {
   max-width: 210px;
-  /* margin-left: 50%; */
   margin-top: calc(300px * 2);
 }
 
@@ -460,6 +459,10 @@ aside {
   float: left;
   height: 75px;
   width: 75px;
+}
+
+#aside_bot {
+  float: right;
 }
 
 /* footer */
