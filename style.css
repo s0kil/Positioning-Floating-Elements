@@ -440,24 +440,40 @@ footer{
   text-transform: capitalize;
 }
 
+footer svg {
+  width: 280px;
+  height: auto;
+}
+
+#more_div {
+  padding-right: 20px;
+  border-right: solid 1px lightgray;
+}
+
 #foot_div {
   display: block;
   margin: 60px;
 }
 
 .div_block {
+  margin-top: 30px;
   float: left;
 }
 
-.div_block header{
+.div_block header, .subscribe h3 {
   text-transform: uppercase;
   font-weight: bold;
-  color: gray;
+  color: #333333;
   margin-left: 40px;
 }
 
-.go_home {
+#go_home {
   float: right;
+}
+
+#go_home a{
+  color: #567E95;
+  font-size: 0.8em;
 }
 
 li, ul {
@@ -466,8 +482,26 @@ li, ul {
   list-style-type: none;
   list-style-image: none;
   list-style-position: outside;
+  padding-bottom: 5px;
 }
 
 .subscribe {
-  float: right;
+  float: left;
+}
+
+.subscribe svg {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.subscribe_bold {
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 240px;
+}
+
+#bottom_space {
+  height: 52px;
+  width: 100%
 }
