@@ -57,6 +57,14 @@ nav {
   margin-right: 5px;
 }
 
+.div_block > p,
+.subscribe > h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  margin-left: 40px;
+}
+
 #bot_nav {
   position: fixed;
   bottom: 0;
@@ -494,14 +502,6 @@ footer::before {
 .div_block {
   margin-top: 30px;
   float: left;
-}
-
-.div_block > p,
-.subscribe > h3 {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #333;
-  margin-left: 40px;
 }
 
 li,
