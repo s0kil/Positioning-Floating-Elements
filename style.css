@@ -405,13 +405,13 @@ section,
 aside {
   max-width: 318px;
   float: right;
+  margin-right: 15%;
 }
 
 /* Aside top */
 
 #asides {
   float: right;
-  margin-right: 13%;
   height: 100vh;
 }
 
