@@ -208,6 +208,13 @@ section,
   margin-bottom: 4em;
 }
 
+#theory h1,
+#theory > p
+{
+  max-width: 945px;
+  margin: 0 auto;
+}
+
 #theory #theory_author {
   margin: 0 auto;
   max-width: 945px;
@@ -376,7 +383,7 @@ aside {
 
 #asides {
   float: right;
-  margin-right: 16%;
+  margin-right: 13%;
   height: 100vh;
 }
 
@@ -406,7 +413,6 @@ aside {
 }
 
 #editors_picks_seperator {
-  /* margin; */
   width: 210px;
   height: 1px;
   background-color: lightgray;
@@ -419,13 +425,49 @@ aside {
 #editors_picks p {
   padding: 6px 0 0 calc(75px + 6px);
   font-size: 12px;
-  /* display: inline-block; */
-  /* float: left; */
 }
 
 #editors_picks .pick img {
   float: left;
   height: 75px;
   width: 75px;
-  /* max-width: 280px; */
+}
+
+/* footer */
+
+footer{
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
+
+#foot_div {
+  display: block;
+  margin: 60px;
+}
+
+.div_block {
+  float: left;
+}
+
+.div_block header{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  margin-left: 40px;
+}
+
+.go_home {
+  float: right;
+}
+
+li, ul {
+  display: list-item;
+  width: 157px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+
+.subscribe {
+  float: right;
 }
