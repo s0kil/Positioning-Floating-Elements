@@ -23,12 +23,12 @@ nav {
   border-top: solid 1px gray;
 }
 
-#bot_nav p{
+#bot_nav p {
   display: inline-block;
   margin-left: 33%;
 }
 
-#bot_nav span{
+#bot_nav span {
   float: right;
   margin-top: 20px;
   margin-right: 2%;
@@ -37,7 +37,7 @@ nav {
   text-transform: uppercase;
 }
 
-#bot_nav svg{
+#bot_nav svg {
   float: right;
   height: 17px;
   width: auto;
@@ -109,7 +109,8 @@ nav img {
   font-size: 0.85em;
 }
 
-section {
+section,
+#article_footer {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -152,12 +153,21 @@ section {
   font-weight: bold;
 }
 
+#article_footer div,
+#article_footer span a {
+  color: rgb(102, 102, 102);
+}
+
+#article_footer span a {
+  text-decoration-line: underline;
+}
+
 #article_footer div {
   margin: 0 auto;
   margin-left: 300px;
   max-width: 600px;
   font-size: 0.75em;
-  color: rgb(102, 102, 102);
+  margin-bottom: 1em;
 }
 
 .under_img {
@@ -192,6 +202,28 @@ section {
 
 .main_text {
   clear: left;
+}
+
+#theory {
+  margin-bottom: 4em;
+}
+
+#theory #theory_author {
+  margin: 0 auto;
+  max-width: 945px;
+}
+
+#theory_seperator {
+  margin: 3em 0 1em 127.5px;
+  width: 100px;
+  height: 1px;
+  background: black;
+}
+
+#theory > p {
+  font-size: 14px;
+  margin-bottom: 1.2em;
+  color: #666;
 }
 
 #inflation_demo {
@@ -342,10 +374,15 @@ aside {
 
 /* Aside top */
 
-#sign_up{
-  width: 180px;
-  margin-right: 10%;
-  margin-top: 15%;
+#asides {
+  float: right;
+  margin-right: 16%;
+  height: 100vh;
+}
+
+#sign_up {
+  max-width: 180px;
+  margin-top: 300px;
 }
 
 #sign_up .descrp {
@@ -360,4 +397,35 @@ aside {
 #sign_title {
   font-size: 1.1em;
   font-weight: bold;
+}
+
+#editors_picks {
+  max-width: 210px;
+  margin-left: 50%;
+  margin-top: calc(300px * 2);
+}
+
+#editors_picks_seperator {
+  /* margin; */
+  width: 210px;
+  height: 1px;
+  background-color: lightgray;
+}
+
+#editors_picks h5 {
+  margin-bottom: 15px;
+}
+
+#editors_picks p {
+  padding: 6px 0 0 calc(75px + 6px);
+  font-size: 12px;
+  /* display: inline-block; */
+  /* float: left; */
+}
+
+#editors_picks .pick img {
+  float: left;
+  height: 75px;
+  width: 75px;
+  /* max-width: 280px; */
 }
