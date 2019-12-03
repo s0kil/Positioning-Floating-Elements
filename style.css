@@ -5,13 +5,52 @@ body {
 nav {
   display: block;
   overflow: hidden;
-  border-bottom: solid 1px gray;
+  border-bottom: solid 1px lightgray;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+#top_nav {
+  position: fixed;
+  top: 0;
+}
+
+#bot_nav {
+  position: fixed;
+  bottom: 0;
+  padding: 0 0;
+  border-top: solid 1px gray;
+}
+
+#bot_nav p{
+  display: inline-block;
+  margin-left: 33%;
+}
+
+#bot_nav span{
+  float: right;
+  margin-top: 20px;
+  margin-right: 2%;
+  font-size: 0.7em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#bot_nav svg{
+  float: right;
+  height: 17px;
+  width: auto;
+  margin-top: 15px;
+  margin-right: 9%;
+  transform: rotate(270deg);
 }
 
 #nyt_logo {
   display: inline-block;
   width: 200px;
   margin-left: 26%;
+  margin-top: 2px;
 }
 
 a {
@@ -26,6 +65,7 @@ a {
 #left_but * {
   float: left;
   margin: 0 auto;
+  margin-top: 5px;
   background-color: transparent;
   border: none;
 }
@@ -48,6 +88,8 @@ nav img {
 }
 
 #right_but {
+  margin-right: 15px;
+  margin-top: 4px;
   float: right;
 }
 
@@ -82,6 +124,10 @@ section {
 #main_img h2 {
   max-width: 600px;
   margin-left: 300px;
+}
+
+#main_img {
+  margin-top: 5%;
 }
 
 #main_img img {
@@ -189,8 +235,6 @@ section {
   top: calc(var(--inflation-demo-top) * 3);
 }
 
-/* Text Top End */
-
 /* Text Left Start */
 #t1,
 #t5 {
@@ -293,5 +337,27 @@ aside {
 .article_list p {
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/* Aside top */
+
+#sign_up{
+  width: 180px;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+
+#sign_up .descrp {
+  font-size: 0.8em;
+  color: gray;
+}
+
+#sign_up button {
+  width: 180px;
+}
+
+#sign_title {
+  font-size: 1.1em;
   font-weight: bold;
 }
