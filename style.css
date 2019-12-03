@@ -404,15 +404,16 @@ section,
 
 aside {
   max-width: 318px;
-  float: right;
-  margin-right: 15%;
+  float: left;
+  margin-left: 0%;
 }
 
 /* Aside top */
 
 #asides {
   float: right;
-  height: 100vh;
+  height: 100%;
+  width: 20%;
 }
 
 #sign_up {
@@ -436,7 +437,7 @@ aside {
 
 #editors_picks {
   max-width: 210px;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   margin-top: calc(300px * 2);
 }
 
