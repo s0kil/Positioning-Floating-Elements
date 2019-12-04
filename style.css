@@ -148,12 +148,14 @@ a {
 }
 
 section,
+#related_articles,
 #article_footer {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .text h2,
+.text h3,
 .text img,
 #main_img h2 {
   max-width: 600px;
@@ -450,7 +452,7 @@ aside {
   margin-bottom: 15px;
 }
 
-#editors_picks p {
+#editors_picks h6 {
   padding: 6px 0 0 calc(75px + 6px);
   font-size: 12px;
 }
